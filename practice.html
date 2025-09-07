@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
-       <link rel="stylesheet" href="practice.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="practice.css" />
+  </head>
+  <body>
     <div id="outer">
-        <div class="inner" id="red"></div>
-        <div class="inner" id="yellow"></div>
-        <div class="inner" id="green"></div>
+      <div class="inner" id="red"></div>
+      <div class="inner" id="yellow"></div>
+      <div class="inner" id="green"></div>
     </div>
-</body>
+    <!-- BLOCK -->
+    <h2>Heading1</h2>
+    <h2>Heading2</h2>
+
+    <!-- INLINE -->
+    <span>SPAN1</span>
+    <span>SPAN2</span>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
+      quaerat! Provident eveniet, optio, odio non animi, veniam repellat quidem
+      soluta corporis pariatur eos blanditiis sed quasi illo? Nisi, nulla
+      delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Quasi debitis distinctio deserunt unde magnam? Aperiam tenetur vitae minus
+      unde assumenda ea laboriosam odit obcaecati quia. Magnam quo accusantium
+      amet expedita.lorem Pariatur, quaerat! Provident eveniet, optio, odio non
+      animi, veniam repellat quidem soluta corporis pariatur eos blanditiis sed
+      quasi illo? Nisi, nulla delectus.<span
+        id="sp"
+        >INLINE</span
+      >Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Pariatur, quaerat! Provident eveniet, optio, odio non
+      animi, veniam repellat quidem soluta corporis pariatur eos blanditiis sed
+      quasi illo? Nisi, nulla delectus.Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Pariatur, quaerat! Provident eveniet, optio, odio non
+      animi, veniam repellat quidem soluta corporis pariatur eos blanditiis sed
+      quasi illo? Nisi, nulla delectus.Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Pariatur, quaerat! Provident eveniet, optio, odio non
+      animi, veniam repellat quidem soluta corporis pariatur eos blanditiis sed
+      quasi illo? Nisi, nulla delectus.Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Pariatur, quaerat! Provident eveniet, optio, odio non
+      animi, veniam repellat quidem soluta corporis pariatur eos blanditiis sed
+      quasi illo? Nisi, nulla delectus.Lorem ipsum dolor sit amet consectetur
+      adipisicing elit.
+    </p>
+
+
+   <div class="box"></div>
+   <div  class="box"></div>
+   <div  class="box" id="disappear"></div>
+
+   <div id="out"> This is outer <div id="in"> This is outer</div></div>
+
+<br>
+<br>
+   <button id="btn">Click me</button>
+
+
+
+   <!-- em ka drawback yah parent sa child phir agla child {apny parent ka double hota} -->
+   <section>
+Start
+  
+    <div class="em">ONE
+          <div class="em">TWO</div>
+    </div>
+   </section>
+
+ <!-- em ka drawback yah parent sa child phir agla child {apny root/start ka double hota} -->
+    <section>
+Start
+  
+    <div class="rem">ONE
+          <div class="rem">TWO</div>
+    </div>
+   </section>
+  
+  </body>
 </html>

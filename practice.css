@@ -1,21 +1,120 @@
-#outer{
-    height: 200px;
-    width:70px;
-    border:2px solid black;
+#outer {
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
 }
-.inner{
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    margin: 10px;
-    border-radius: 50%;
+.inner {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
 }
-#red{
-    background-color: red;
+#red {
+  background-color: red;
 }
-#yellow{
-    background-color: yellow;
+#yellow {
+  background-color: yellow;
 }
-#green{
+#green {
+  background-color: green;
+}
+
+
+
+
+h2 {
+  display: inline;
+  background-color: pink;
+}
+span {
+  display: block;
+  background-color: yellow;
+}
+
+
+
+#sp{
+    background-color: aqua;
+      display: inline;
+      border:2px solid black;
+
+      /* no-effect */
+      height:20px;
+      width:20px;
+
+     /* padding or margin just {left OR right} pr effect */
+      padding: 20px;
+      margin:20px;
+}
+
+
+
+/* inline-block */
+.box{
+    height:200px;
+    width: 200px;
     background-color: green;
+    border:2px solid black;
+    display: inline-block;
+    margin: 5px;
+
 }
+#disappear{
+    display:none;
+}
+
+/* absolute/Relative */
+#out{
+    height:200px;
+    width:200px;
+    background-color: pink;
+    border:2px solid black;
+    font-size: 10px;
+}
+
+
+#in{
+    height:100px;
+    width:100px;
+    background-color: blue;
+
+    /* parent ka according change hota hai {%} */
+    margin-left: 10%;
+
+
+/* {size} */
+    font-size: 3em;
+
+
+/* padding by default child ko he follow krti */
+    padding:1em ;
+}
+
+
+
+#btn{
+    font-size: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+    border:5px solid green;
+    border-radius: 15px;
+}
+
+
+section{
+    font-size: 15px;
+}
+
+.em{
+    font-size: 2em;
+}
+.rem{
+    font-size: 2rem;
+}
+
+
+
+
