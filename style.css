@@ -1,0 +1,22 @@
+/* height ,width,border. of content  */
+
+div{
+    height:200px;
+    width:500px;
+    background-color: pink;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+    border-left-style: dashed;
+    border-left-color: blue;
+
+}
+h1{
+       /* border-width: 2px;
+    border-style: dashed;
+    border-color: purple; */
+    border: 2px solid green;
+
+}
