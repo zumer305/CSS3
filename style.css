@@ -1,4 +1,5 @@
-/* height ,width,border. of content  */
+/* height ,width (content),
+border of div  */
 
 div{
     height:200px;
@@ -8,9 +9,16 @@ div{
     border-width: 5px;
     border-style: solid;
     border-color: black;
+    /* border:5px solid black; */
 
+    border-left-width:10px;
     border-left-style: dashed;
     border-left-color: blue;
+    /* border-left:2px dashed blue; */
+
+
+    /* border-radius: 50px; */
+    border-top-right-radius:50px;
 
 }
 h1{
