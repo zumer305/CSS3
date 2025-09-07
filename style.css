@@ -22,6 +22,13 @@ div{
 
     padding: 50px;
 
+    margin-bottom: 20px;
+    margin-left: 50px;
+        /* margin: */
+    /* margin: top&bottom|left&right */
+    /* margin :top|left&right|bottom */
+    /* margin :top right bottom left (clockwise) */
+
 }
 h1{
        /* border-width: 2px;
